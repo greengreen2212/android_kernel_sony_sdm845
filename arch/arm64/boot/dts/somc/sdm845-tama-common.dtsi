@@ -3127,7 +3127,7 @@
 		polling-delay-passive = <0>;
 		polling-delay = <0>;
 		thermal-sensors = <&pm8998_adc_tm 0x4c>;
-		thermal-governor = "user_space";
+		thermal-governor = "step_wise";
 		wake-capable-sensor;
 
 		trips {
@@ -3143,7 +3143,7 @@
 		polling-delay-passive = <0>;
 		polling-delay = <0>;
 		thermal-sensors = <&pm8998_adc_tm 0x4c>;
-		thermal-governor = "user_space";
+		thermal-governor = "step_wise";
 		wake-capable-sensor;
 
 		trips {
@@ -3159,7 +3159,7 @@
 		polling-delay-passive = <0>;
 		polling-delay = <0>;
 		thermal-sensors = <&pm8998_adc_tm 0x4e>;
-		thermal-governor = "user_space";
+		thermal-governor = "step_wise";
 
 		trips {
 			active-config0 {
@@ -3174,7 +3174,7 @@
 		polling-delay-passive = <0>;
 		polling-delay = <0>;
 		thermal-sensors = <&pm8998_adc_tm 0x4c>;
-		thermal-governor = "user_space";
+		thermal-governor = "step_wise";
 		wake-capable-sensor;
 
 		trips {
@@ -3190,7 +3190,7 @@
 		polling-delay-passive = <0>;
 		polling-delay = <0>;
 		thermal-sensors = <&pm8998_adc_tm 0x50>;
-		thermal-governor = "user_space";
+		thermal-governor = "step_wise";
 
 		trips {
 			active-config0 {
@@ -3205,7 +3205,7 @@
 		polling-delay-passive = <0>;
 		polling-delay = <0>;
 		thermal-sensors = <&pm8998_adc_tm 0x4e>;
-		thermal-governor = "user_space";
+		thermal-governor = "step_wise";
 		wake-capable-sensor;
 		disable-thermal-zone;
 
@@ -3222,7 +3222,7 @@
 		polling-delay-passive = <0>;
 		polling-delay = <0>;
 		thermal-sensors = <&pm8998_adc_tm 0x53>;
-		thermal-governor = "user_space";
+		thermal-governor = "step_wise";
 
 		trips {
 			active-config0 {
@@ -3236,7 +3236,7 @@
 	ibat-high {
 		trips {
 			low-ibat {
-				temperature = <4200>;
+				temperature = <4300>;
 				hysteresis = <200>;
 				type = "passive";
 			};
